@@ -22,6 +22,17 @@ The Property Management System is a full-stack web application designed to strea
 - Database: SQLite (with planned migration path to more scalable DBMS)
 - ORM: Sequelize/TypeORM for database abstraction
 
+## Documentation
+
+Detailed documentation can be found in the `docs/` directory:
+
+- `docs/requirements/`: Functional and non-functional requirements
+- `docs/design/`: System architecture, database schema, and UI mockups
+- `docs/api/`: API documentation
+- `docs/user_guides/`: Admin and tenant user guides
+- `docs/development/`: Setup guide, coding standards, and testing strategy
+- `docs/deployment/`: Deployment guide and maintenance procedures
+
 ## Getting Started
 
 1. Clone the repository
@@ -45,9 +56,11 @@ The Property Management System is a full-stack web application designed to strea
    npm run dev
    ```
 
+For more detailed setup instructions, please refer to `docs/development/setup_guide.md`.
+
 ## Contributing
 
-We welcome contributions to the Property Management System! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) file for details on our code of conduct and the process for submitting pull requests.
+We welcome contributions to the Property Management System! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) file for details on our code of conduct, development process, and how to submit pull requests.
 
 ## License
 
