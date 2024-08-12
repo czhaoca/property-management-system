@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTP Slot Finder - Monitor Slots</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container monitor-page">
+        <h1>Monitor Slots</h1>
+        <nav>
+            <a href="admin.html">Admin Dashboard</a>
+            <a href="dashboard.html">User Dashboard</a>
+            <a href="index.html">Logout</a>
+        </nav>
+        <div class="monitor-content">
+            <h2>Create Monitoring Request</h2>
+            <form class="monitor-form">
+                <select name="location" required>
+                    <option value="">Select Location</option>
+                    <option value="1">New York City</option>
+                    <option value="2">Los Angeles</option>
+                    <option value="3">Chicago</option>
+                </select>
+                <input type="date" name="start_date" required>
+                <input type="date" name="end_date" required>
+                <button type="submit">Create Request</button>
+            </form>
+            <h2>Active Monitoring Requests</h2>
+            <ul class="request-list">
+                <li>New York City: 2023-08-15 to 2023-09-15</li>
+                <li>Los Angeles: 2023-09-01 to 2023-10-01</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
